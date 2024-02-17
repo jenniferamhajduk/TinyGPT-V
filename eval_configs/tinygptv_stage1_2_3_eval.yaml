@@ -5,7 +5,7 @@ model:
   bos_token_id: "###"
   low_resource: False
   prompt_template: '###Human: {} ###Assistant: '
-  ckpt: ''
+  ckpt: '../checkpoints/TinyGPY-V_for_Stage1.pth'
   lora_r: 64
   lora_alpha: 16
 
